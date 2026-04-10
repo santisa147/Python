@@ -1,2 +1,2 @@
 # Python
-Python practice projects showcasing my programming level and ongoing growth as a developer — from core concepts to increasingly complex implementations
+"A curated collection of Python projects developed for practice and continuous skill refinement. This repository reflects my current programming level and serves as a living portfolio of my growth as a developer — covering a range of topics from foundational concepts to progressively complex implementations."
