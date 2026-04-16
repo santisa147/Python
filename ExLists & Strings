@@ -1,0 +1,29 @@
+numbers = [1,2,3,4,5]
+numbers =[2,4,6,8,10]
+print(numbers)
+
+names = ['ana','juan','pedro']
+print([name.upper() for name in names])
+
+nbrs= [1,2,3,4,5,6]
+new_nbrs = [nbr for nbr in nbrs if nbr % 2 == 0]
+# for nbr in nbrs:
+#     if nbr % 2 == 0:
+#         new_nbrs.append(nbr)
+
+print(new_nbrs  )    
+
+words = ["python", "java", "javascript", "go"]
+new_words = [word for word in words if len(word) > 4]
+# for i in words:
+#     if len(i) > 4:
+#         new_words.append(i)
+print(new_words)
+
+emails = ["test@gmail.com", "user@yahoo.com", "dev@gmail.com"]
+gmail_emails = [email for email in emails if email.endswith("@gmail.com")]
+print(len(gmail_emails))
+# for email in emails:
+#     if email.endswith("@gmail.com"):
+#         gmail_emails.append(email)  
+# print(gmail_emails)

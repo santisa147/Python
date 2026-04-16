@@ -40,4 +40,5 @@ otherCoursehours = courseAverage * currentCourseHours / 100
 print("If a student watches 10 hours of this course, it would be equivalent to ", f"{otherCoursehours:.2f}", " hours of any other course.")
 otherCourseHours = 10 * 100 / courseAverage
 currentCourseHours = currentCourse * otherCourseHours / 100
-print("Conversely, how many hours of this course equal 10 hours of another course: ", f"{currentCourseHours:.2f}", " hours of this course.")
+print("Conversely, how many hours of this course equal 10 hours of another course: ", f"{currentCourseHours:.2f}", " hours of this course.") 
+
