@@ -11,10 +11,20 @@ def view_tasks(tasks):
         print(f"{i}. {task['title']} {status}")
 
 def mark_done(tasks):
-    a = 0
+    if not tasks:
+        print("No tasks available")
+        return
+
     view_tasks(tasks)
-    a = int(input('Select the Task to Mark Done: ')) - 1
-    tasks[a]['done']= True if tasks[a]['done'] == False  else print('The task is already Done')
+    a = int(input("Select task: ")) - 1
+
+    if 0 <= a < len(tasks):
+        if not tasks[a]["done"]:
+            tasks[a]["done"] = True
+        else:
+            print("Task already done")
+    else:
+        print("Invalid task number")
     
 def delete_task(tasks):
     a = 0
